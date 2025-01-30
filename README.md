@@ -1,23 +1,21 @@
 # Suma_n_Numero
-suma de los n primeros números naturales  
+suma de los n primero
 
-import math
+# Analisis 
 
-print("............................")
-print("area perimetro de el circulo")
-print("............................")
+## Input
 
 
-# input
-r=input ("digite el valor de el radio:  ")
-r = int(r)
 
-# procesing
-p=2*math.pi*r
-a= math.pi*r**2
+### variables de entrada
+n: numero al que se desea aplicar la formula
+### prosesing
+s: suma de los primeros n numeros 
 
-# output
-print("..........................")
-print("el area es : " + str(a))
-print("el perimetro es: " + str(p))
-print("..........................")
+s= (n*(n+1))/2
+
+
+### output
+
+# Diseño 
+![Diagrama de flujo](diagrama.png "Diagrama de flujo")
